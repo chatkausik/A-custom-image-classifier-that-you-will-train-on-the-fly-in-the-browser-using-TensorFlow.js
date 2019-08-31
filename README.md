@@ -12,3 +12,7 @@ We'll use a module called a "K-Nearest Neighbors Classifier", which effectively 
 Now when we load the index.html page, we can use common objects or face/body gestures to capture images for each of the three classes. Each time we click one of the "Add" buttons, one image is added to that class as a training example. While we do this, the model continues to make predictions on webcam images coming in and shows the results in real-time.
 
 
+## What we'll learn
+1.How to load pretrained MobileNet model and make a prediction on new data
+2.How to make predictions through the webcam
+3.How to use intermediate activations of MobileNet to do transfer learning on a new set of classes you define on the fly with the webcam
